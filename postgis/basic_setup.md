@@ -103,4 +103,30 @@ Verify:
 
 Connecting to the database through QGIS will confirm successful creation of our spatial database.
 
+Through QGIS:
 
+<img width="430" height="687" alt="image" src="https://github.com/user-attachments/assets/c65eeeb0-d3b5-47df-b769-74fa555bce00" />
+
+Make sure the database name is the same as in pgadmin. I used basic configurations for this. With multiple users there may be a need for tailored configurations.
+
+To see load the data, you can add our table (test_points) through the DB manager as below:
+
+<img width="1582" height="642" alt="image" src="https://github.com/user-attachments/assets/e42072ee-6e31-4b80-9970-f85b82dc900d" />
+
+Or throught Data Source Manager:
+
+<img width="566" height="550" alt="image" src="https://github.com/user-attachments/assets/32e4c37b-8bf9-4217-b2ff-0d03bc08d346" />
+
+Or through the layer tab:
+
+<img width="852" height="717" alt="image" src="https://github.com/user-attachments/assets/090c18c7-fd4f-4402-818a-fafb33404b41" />
+
+Verify the points are loaded:
+
+<img width="985" height="628" alt="image" src="https://github.com/user-attachments/assets/8894379e-4e5e-4f34-bc81-8c8ee5d915ba" />
+
+Let's add a basemap to give the points some context and officially call this a map. In QGIS, basemaps are labelled as XYZ tiles, add them through the browser panel or through the layer tab:
+
+<img width="1101" height="626" alt="image" src="https://github.com/user-attachments/assets/0557d729-3c54-41ed-8208-6e971bca3c41" />
+
+Our first map with PostGIS is a success! 
