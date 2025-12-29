@@ -99,7 +99,6 @@ __index.html__
 </body>
 </html>
 ```
---
 
 __script.js__
 
